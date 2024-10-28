@@ -35,4 +35,3 @@ def get_enderecos(codigo_instituicao):
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
