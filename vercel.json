@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "API_EMEC/app.py",
+            "src": "api/app.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "API_EMEC/app.py"
+            "dest": "api/app.py"
         }
     ]
 }
